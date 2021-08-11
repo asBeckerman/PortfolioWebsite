@@ -1,0 +1,41 @@
+body
+{
+    
+    background-color:#EAEAEA;
+}
+
+strong
+{
+    font-size:30px;
+}
+
+.nav
+{
+    text-align: center;
+}
+
+.navItem
+{
+    font-size: 20px;
+    text-align: center; 
+    background-color:#EAEAEA;
+    border:1px solid black;
+    display:inline-block;
+    float:left;
+ 
+}
+
+.navItem:hover
+{
+    background-color:gray;
+}
+
+a:link
+{
+   text-decoration:none;
+}
+a:visited
+{
+    text-decoration:none;
+    color:black;
+}

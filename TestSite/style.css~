@@ -1,0 +1,21 @@
+body
+{
+    background-color:#EAEAEA;
+}
+
+
+.nav
+{
+    text-align: center;
+}
+
+.navItem
+{
+    font-size: 20px;
+    text-align: center; 
+    background-color:#EAEAEA;
+    border:1px solid black;
+    display:inline-block;
+    float:left;
+}
+

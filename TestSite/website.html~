@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>Portfolio</title>
+</head>
+<body>
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <div class="nav">
+    <button class="navItem" onClick="website.html"> About Me </button>
+  <button class="navItem" onClick=""> Projects </button>
+ 
+ 
+  </div>
+
+  <br>
+  <br>  
+  <br>
+   <strong id="title"> About Me </strong>
+<p>  
+  Hi my name is Alex, and I am a student studying Computer Science and Psychology at the University of Wisconsin Madison.
+<hr>
+<strong>Work Experience</strong>
+<br>Student Helper at WIDA (June 2021-Present)
+<br>Programming Instructor at Lavner Camps (June 2020-August 2020)
+<hr>
+<strong>Skills</strong>
+<br>
+Programming:
+<ul>
+  <li> HTML</li>
+ <li> CSS</li>
+  <li> Javascript </li>
+  <li> Python </li>
+  <li> Java </li>
+  <li> C++ </li>
+  <li> C </li>
+  </ul>
+
+ Resourcefulness
+    <br>
+Teamwork
+<br>
+
+<hr>
+<strong>Interests</strong>
+<hr>
+</p>
+</body>
+</html>
