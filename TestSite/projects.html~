@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>Portfolio</title>
+</head>
+<body>
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <div class="nav">
+    <button class="navItem" ><a href="website.html"> About Me</a> </button>
+  <button class="navItem" ><a href="projects.html"> Projects</a> </button>
+ 
+ 
+  </div>
+
+
+</body>
+</html>
 <body>

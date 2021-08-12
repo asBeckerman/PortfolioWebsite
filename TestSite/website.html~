@@ -2,6 +2,9 @@
 <html>
 <head>
 
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Portfolio</title>
 </head>
@@ -10,23 +13,26 @@
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <div class="nav">
-    <button class="navItem" onClick="website.html"> About Me </button>
-  <button class="navItem" onClick=""> Projects </button>
- 
+    
+     <button class="navItem" ><a href="website.html"> About Me</a> </button>
+  <button class="navItem" ><a href="projects.html"> Projects</a> </button>
+
  
   </div>
 
   <br>
-  <br>  
-  <br>
+ <p>
    <strong id="title"> About Me </strong>
-<p>  
-  Hi my name is Alex, and I am a student studying Computer Science and Psychology at the University of Wisconsin Madison.
-<hr>
+   <br>
+  Hi my name is Alex Beckerman, and I am a student studying Computer Science and Psychology at the University of Wisconsin Madison.
+  </p>
+
+<p>
 <strong>Work Experience</strong>
 <br>Student Helper at WIDA (June 2021-Present)
 <br>Programming Instructor at Lavner Camps (June 2020-August 2020)
-<hr>
+</p>
+<p>
 <strong>Skills</strong>
 <br>
 Programming:
@@ -39,15 +45,16 @@ Programming:
   <li> C++ </li>
   <li> C </li>
   </ul>
-
+<br>
  Resourcefulness
     <br>
 Teamwork
 <br>
-
-<hr>
-<strong>Interests</strong>
-<hr>
 </p>
+<p>
+<strong>Interests</strong>
+
+</p>
+   
 </body>
 </html>

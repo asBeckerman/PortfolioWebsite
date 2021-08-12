@@ -12,10 +12,13 @@ strong
 .nav
 {
     text-align: center;
+    position: sticky;
+    top:10px;
 }
 
 .navItem
 {
+     position: sticky;
     font-size: 20px;
     text-align: center; 
     background-color:#EAEAEA;

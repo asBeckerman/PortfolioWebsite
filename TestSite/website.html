@@ -5,16 +5,26 @@
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style.css">
 <title>Portfolio</title>
 </head>
 <body>
 
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
+ 
   <div class="nav">
+    <div class="dropdown">
+    <button class="navItem dropdown-toggle" id="about" data-bs-toggle="dropdown" aria-expanded="false"><a href="website.html"> About Me</a> </button>
+   <ul class="dropdown-menu" aria-labelledby="about">
+    <li><a class="dropdown-item" href="#experience">Work Experience</a></li>
+    <li><a class="dropdown-item" href="#skills">Skills</a></li>
+    <li><a class="dropdown-item" href="#interests">Interests</a></li>
+  </ul> 
+    </div>
+
     
-     <button class="navItem" ><a href="website.html"> About Me</a> </button>
   <button class="navItem" ><a href="projects.html"> Projects</a> </button>
 
  
@@ -26,14 +36,14 @@
    <br>
   Hi my name is Alex Beckerman, and I am a student studying Computer Science and Psychology at the University of Wisconsin Madison.
   </p>
-
-<p>
-<strong>Work Experience</strong>
+  <p>
+<strong id="experience">Work Experience</strong>
 <br>Student Helper at WIDA (June 2021-Present)
 <br>Programming Instructor at Lavner Camps (June 2020-August 2020)
 </p>
-<p>
-<strong>Skills</strong>
+  <p>
+  
+<strong id="skills">Skills</strong>
 <br>
 Programming:
 <ul>
@@ -51,10 +61,11 @@ Programming:
 Teamwork
 <br>
 </p>
-<p>
-<strong>Interests</strong>
+  <p>
+
+<strong id="interests">Interests</strong>
 
 </p>
-   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
 </body>
 </html>
